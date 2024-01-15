@@ -24,10 +24,8 @@ class Solution:
     # def groupAnagrams(self, strs):
     #     str_dict = defaultdict(list)
     #     for str_ in strs:
-    #         # Sorting the string and using it as a key in the dictionary
     #         sorted_str = ''.join(sorted(str_))
     #         str_dict[sorted_str].append(str_)
 
-    #     # Generating the result list from the dictionary values
     #     result = list(str_dict.values())
     #     return result
